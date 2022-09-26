@@ -7,5 +7,6 @@
 
 게임 실행폴더에 .bat파일을 클릭하면 플레이할 수 있습니다.
 
+![Title (1)](https://user-images.githubusercontent.com/66878270/192179350-d24c62c9-dc10-48ec-aaab-33bee1137eba.png)
  GambleRevolver-Project
  
