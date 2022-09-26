@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GameManager">
+      <UniqueIdentifier>{08e48835-ff6e-4c15-bcf9-754bb755bd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PCH">
+      <UniqueIdentifier>{62921693-1475-4412-84ef-0b3b7e51df42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Enum">
+      <UniqueIdentifier>{4e156154-9735-4f86-bd62-140d2a7e7afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj">
+      <UniqueIdentifier>{21f9784e-6b6e-4d0c-98b6-333a611be488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{7b747f75-d7b1-41ce-8f4c-5d5fdf894c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\SystemClass">
+      <UniqueIdentifier>{00ebe70d-305a-4a3d-94ad-35524d4a23d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\StructData">
+      <UniqueIdentifier>{b2d2bc62-e853-4b32-b936-5e3eaface033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Enemy">
+      <UniqueIdentifier>{e3ff6ad4-ecab-4026-8309-f5b750bffd94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Player">
+      <UniqueIdentifier>{96f15cbc-7130-43a6-a164-d3d1bbffc215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Table">
+      <UniqueIdentifier>{73d42e6c-e9ec-4ebf-ad5c-209dae3bb73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen">
+      <UniqueIdentifier>{9a4f16d9-3f39-4abe-8dab-cb8df2c2acdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\Stage02">
+      <UniqueIdentifier>{843516a3-131e-4ee7-8267-dcd59afe46f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\Stage01">
+      <UniqueIdentifier>{f005e00d-b8c9-44f6-9eab-2568bf8fdfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Trigger">
+      <UniqueIdentifier>{52aa0ca6-a641-4c20-a5d5-8f4973059a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Enemy\Boss">
+      <UniqueIdentifier>{04393a50-bf82-48aa-928c-b03e3ebe9f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Enemy\EnemyC">
+      <UniqueIdentifier>{029ea5b9-a20e-48c2-a91b-3c6f972ea043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Enemy\EnemyB">
+      <UniqueIdentifier>{e35cfb4a-504b-4da9-8d5f-855f11538e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Enemy\EnemyA">
+      <UniqueIdentifier>{0da28322-90eb-4e80-8d3e-ab610c7bd5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\Bullet">
+      <UniqueIdentifier>{a49de433-fcce-4be8-8cff-c2755400c0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\BonusRoom">
+      <UniqueIdentifier>{83ba373d-5c67-4616-9ab0-47b8f0bbcf88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\Loading">
+      <UniqueIdentifier>{e58d3c07-83e1-4369-9ec8-1152c74636c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\Stage03">
+      <UniqueIdentifier>{cfb091bc-d420-49ca-8cb5-7dff3f9c2054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\Title">
+      <UniqueIdentifier>{ec711361-9df3-4a04-a9ae-dd13e0e431a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\Tutorial">
+      <UniqueIdentifier>{480460d5-7e31-4a7d-8751-cd6c471550e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\UI">
+      <UniqueIdentifier>{ff814196-88a8-457e-9e86-fc53b573001d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\UI\CountFont">
+      <UniqueIdentifier>{5f71e5a7-ec31-43d8-b33c-0f6c57830be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\GameOver">
+      <UniqueIdentifier>{990a7a95-b234-4738-b9b4-95665378f1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\HPBox">
+      <UniqueIdentifier>{8aa6ef31-b5db-46cf-b030-431be90279c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\BulletBox">
+      <UniqueIdentifier>{ec0def61-ccd7-4314-a058-eefb0acac18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Obj\SlotMachine">
+      <UniqueIdentifier>{6fa806f1-324d-47db-98d3-7ad968efdeb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Screen\Win">
+      <UniqueIdentifier>{2be5effe-280b-41ed-87e9-1fcb6292712c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumClass.h">
+      <Filter>소스 파일\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemClass.h">
+      <Filter>소스 파일\System\SystemClass</Filter>
+    </ClInclude>
+    <ClInclude Include="StructData.h">
+      <Filter>소스 파일\StructData</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>소스 파일\Obj\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>소스 파일\Obj\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage01.h">
+      <Filter>소스 파일\Screen\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage02.h">
+      <Filter>소스 파일\Screen\Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>소스 파일\Obj\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyB.h">
+      <Filter>소스 파일\Obj\Enemy\EnemyB</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyC.h">
+      <Filter>소스 파일\Obj\Enemy\EnemyC</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyA.h">
+      <Filter>소스 파일\Obj\Enemy\EnemyA</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CountFont.h">
+      <Filter>소스 파일\Obj\UI\CountFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>소스 파일\Screen\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>소스 파일\Screen\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>소스 파일\Screen\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage03.h">
+      <Filter>소스 파일\Screen\Stage03</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusRoom.h">
+      <Filter>소스 파일\Screen\BonusRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>소스 파일\Screen\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBox.h">
+      <Filter>소스 파일\Obj\HPBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBox.h">
+      <Filter>소스 파일\Obj\BulletBox</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotMachine.h">
+      <Filter>소스 파일\Obj\SlotMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Win.h">
+      <Filter>소스 파일\Screen\Win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="hsGameMain.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>소스 파일\System\SystemClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Obj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>소스 파일\Obj\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>소스 파일\Obj\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage01.cpp">
+      <Filter>소스 파일\Screen\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage02.cpp">
+      <Filter>소스 파일\Screen\Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>소스 파일\Obj\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyB.cpp">
+      <Filter>소스 파일\Obj\Enemy\EnemyB</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyC.cpp">
+      <Filter>소스 파일\Obj\Enemy\EnemyC</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyA.cpp">
+      <Filter>소스 파일\Obj\Enemy\EnemyA</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Obj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CountFont.cpp">
+      <Filter>소스 파일\Obj\UI\CountFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>소스 파일\Screen\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Screen\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>소스 파일\Screen\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage03.cpp">
+      <Filter>소스 파일\Screen\Stage03</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusRoom.cpp">
+      <Filter>소스 파일\Screen\BonusRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>소스 파일\Screen\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBox.cpp">
+      <Filter>소스 파일\Obj\HPBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBox.cpp">
+      <Filter>소스 파일\Obj\BulletBox</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotMachine.cpp">
+      <Filter>소스 파일\Obj\SlotMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Win.cpp">
+      <Filter>소스 파일\Screen\Win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MainGame.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

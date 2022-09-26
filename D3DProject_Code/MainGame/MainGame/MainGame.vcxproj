@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3ab68aba-8843-42e7-a846-a86754ed4c2b}</ProjectGuid>
+    <RootNamespace>MainGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionPath)..\..\..\hsEngine\hsEngine\include;$(SolutionPath)..\..\..\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionPath)..\..\..\lib\Debug_lib;$(SolutionPath)..\..\..\lib\Sound_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionPath)..\..\..\hsEngine\hsEngine\include;$(SolutionPath)..\..\..\hsSound\hsSound\inc;$(SolutionPath)..\..\..\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionPath)..\..\..\lib\Release_lib;$(SolutionPath)..\..\..\lib\Sound_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionPath)..\..\..\hsEngine\hsEngine\include;$(SolutionPath)..\..\..\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionPath)..\..\..\lib\Debug_lib;$(SolutionPath)..\..\..\lib\Sound_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionPath)..\..\..\hsEngine\hsEngine\include;$(SolutionPath)..\..\..\hsSound\hsSound\inc;$(SolutionPath)..\..\..\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionPath)..\..\..\lib\Release_lib;$(SolutionPath)..\..\..\lib\Sound_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionPath)..\..\..\lib\Debug_lib;$(SolutionPath)..\..\..\lib\Sound_lib\fmodex_vc.lib;$(SolutionPath)..\..\..\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)hsEngine.lib" "$(SolutionDir)..\exe\Debug_exe"
+copy /Y "$(TargetDir)MainGame.exe" "$(SolutionDir)..\exe\Debug_exe"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y $(SolutionDir)..\lib\Debug_lib\libfbxsdk.dll  "$(SolutionDir)..\exe\Debug_exe"
+copy /Y $(SolutionDir)..\lib\Debug_lib\libfbxsdk.dll "$(SolutionDir)Debug"
+
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)..\exe\Debug_exe"
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)Debug"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionPath)..\..\..\lib;$(SolutionPath)..\..\..\lib\Sound_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)hsEngine.lib" "$(SolutionDir)..\exe\Release_exe"
+copy /Y "$(TargetDir)MainGame.exe" "$(SolutionDir)..\exe\Release_exe"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y $(SolutionPath)..\..\..\lib\Release_lib\libfbxsdk.dll "$(SolutionDir)..\exe\Release_exe"
+copy /Y $(SolutionDir)..\lib\Release_lib\libfbxsdk.dll "$(SolutionDir)Release"
+
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)..\exe\Release_exe"
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)Release"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionPath)..\..\..\lib\Debug_lib;$(SolutionPath)..\..\..\lib\Sound_lib\fmodex_vc.lib;$(SolutionPath)..\..\..\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)hsEngine.lib" "$(SolutionDir)..\exe\Debug_exe"
+copy /Y "$(TargetDir)MainGame.exe" "$(SolutionDir)..\exe\Debug_exe"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y $(SolutionDir)..\lib\Debug_lib\libfbxsdk.dll  "$(SolutionDir)..\exe\Debug_exe"
+copy /Y $(SolutionDir)..\lib\Debug_lib\libfbxsdk.dll "$(SolutionDir)Debug"
+
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)..\exe\Debug_exe"
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)Debug"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionPath)..\..\..\lib;$(SolutionPath)..\..\..\lib\Sound_lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)hsEngine.lib" "$(SolutionDir)..\exe\Release_exe"
+copy /Y "$(TargetDir)MainGame.exe" "$(SolutionDir)..\exe\Release_exe"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /Y $(SolutionPath)..\..\..\lib\Release_lib\libfbxsdk.dll "$(SolutionDir)..\exe\Release_exe"
+copy /Y $(SolutionDir)..\lib\Release_lib\libfbxsdk.dll "$(SolutionDir)Release"
+
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)..\exe\Release_exe"
+copy /Y $(SolutionDir)..\lib\Sound_lib\fmodex.dll "$(SolutionDir)Release"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BonusRoom.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletBox.h" />
+    <ClInclude Include="CountFont.h" />
+    <ClInclude Include="EnemyA.h" />
+    <ClInclude Include="EnumClass.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="EnemyC.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="HPBox.h" />
+    <ClInclude Include="SlotMachine.h" />
+    <ClInclude Include="Stage03.h" />
+    <ClInclude Include="Tutorial.h" />
+    <ClInclude Include="Loading.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Stage01.h" />
+    <ClInclude Include="Stage02.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="StructData.h" />
+    <ClInclude Include="SystemClass.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="EnemyB.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="Win.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BonusRoom.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletBox.cpp" />
+    <ClCompile Include="CountFont.cpp" />
+    <ClCompile Include="EnemyA.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="EnemyC.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="HPBox.cpp" />
+    <ClCompile Include="hsGameMain.cpp" />
+    <ClCompile Include="SlotMachine.cpp" />
+    <ClCompile Include="Stage03.cpp" />
+    <ClCompile Include="Tutorial.cpp" />
+    <ClCompile Include="Loading.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Stage01.cpp" />
+    <ClCompile Include="Stage02.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="SystemClass.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="EnemyB.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="Win.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MainGame.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\hsEngine\hsEngine\hsEngine.vcxproj">
+      <Project>{5c6b3b73-594b-4708-bffd-48cb1bd7c49b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\hsSound\hsSound\hsSound.vcxproj">
+      <Project>{6589e26d-a8fc-40f4-b78e-c66994c38a9f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
